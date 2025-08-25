@@ -1,0 +1,14 @@
+.C,
+.NC {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.C {
+    color: white;
+    background-color: black;
+}
+
+.NC {
+    background-color: yellow;
+}
