@@ -5,10 +5,11 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex: 1;
+  /* justify-content: space-between; */
   /* align-items: stretch; */
-  
-  }
+
+}
 
 .header {
   height: 72px;
@@ -21,7 +22,7 @@ body {
   display: flex;
   align-items: center;
 
-  padding: 0 16px ;
+  padding: 0 16px;
 }
 
 .footer {
@@ -29,10 +30,13 @@ body {
   background: #eee;
   color: darkmagenta;
 
-  /* justify-self: center; */
+
   text-align: center;
-  /* align-self: center; */
   align-content: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .sidebar {
@@ -43,15 +47,24 @@ body {
   flex: 1 0 300px;
   padding: 16px;
 
-  
+
 }
 
-ul{
+ul {
   list-style-type: none;
+
+  margin: 0;
+  padding: 0;
 }
+
+li {
+  margin-bottom: 16px;
+}
+
+
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
 
   /* flex-grow: 1;
@@ -62,30 +75,30 @@ ul{
   /* width: 300px; */
   /* text-align:left; */
 
-  
+
 
 }
 
-.cards{
+.cards {
   display: flex;
-  
+
 
   flex-wrap: wrap;
   /* margin: 10%; */
   padding: 48px;
   gap: 32px;
 
-  
+
 }
 
-.content{
+.content {
   display: flex;
   flex: 1;
   /* align-self: stretch;  */
-  
+
 }
 
-a{
+a {
   font-size: 24px;
   color: white;
   text-decoration: none;
